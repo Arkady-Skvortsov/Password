@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+		@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+		.pass-block {
+			height: 140px;
+			width: 950px;
+            background-color: black;
+            position: absolute;
+            margin-top: 100px;
+            margin-left: 300px;
+            cursor: pointer;
+		}
+
+		.pass-block #inpt {
+			height: 70px;
+			width: 750px;
+			position: absolute;
+			font-size: 45px;
+			font-family: 'Source Code Pro', monospace;
+			left: 50px;
+			margin-top: 30px;
+			cursor: pointer;
+			transition: 900ms ease;
+			-o-transition: 900ms ease;
+			-mozila-transition: 900ms ease;
+			-webkit-transition: 900ms ease;
+		}
+
+		.pass-block #input:hover {
+			border: 5px solid white;
+		}
+
+		.pass-block .emoj {
+			height: 65px;
+			width: 60px;
+            border: 5px solid black;
+            cursor: pointer;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+            margin-top: 30px;
+            float: right;
+            margin-right: 60px;
+		}
+
+		.pass-block .emoj:hover {
+			border: 5px solid white;
+		}
+
+		.pass-block .emoj.cls {
+			border: 5px solid red;
+		}
+
+		.pass-block .emoj .c1 {
+			font-size: 45px;
+			color: white;
+			margin-left: 3px;
+			margin-top: 10px;
+		}
+
+		.pass-block .emoj .c1.h1 {
+			display: none;
+		}
+
+		.pass-block .emoj .c2 {
+			font-size: 45px;
+			color: white;
+			margin-left: 3px;
+			margin-top: 10px;
+			display: none;
+		}
+
+		.pass-block .emoj .c2.h2 {
+			display: block;
+		}
+
+		.message {
+			height: 50px;
+			width: 950px;
+			position: absolute;
+			margin-left: 300px;
+			margin-top: 330px;
+			background-color: black;
+			cursor: pointer;
+			display: none;
+			border: 5px solid black;
+			transition: 900ms ease;
+			-o-transition: 900ms ease;
+			-mozila-transition: 900ms ease;
+			-webkit-transition: 900ms ease;
+		}
+
+		.message.show {
+			display: block;
+		}
+
+		.message:hover {
+            border: 5px solid orange;
+            transform: translateY(10px);
+		}
+
+		.message span {
+            font-size: 35px;
+            font-family: 'Play', sans-serif;
+            color: white;
+            position: absolute;
+            margin-top: 10px;
+            padding-left: 100px;
+		}
